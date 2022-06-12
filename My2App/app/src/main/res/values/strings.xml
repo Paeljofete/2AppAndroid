@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">2 app Android</string>
+
+    <string name="buttonCliente">Cliente</string>
+    <string name="buttonFecha">Fecha</string>
+    <string name="buttonLibro">Libro</string>
+    <string name="buttonVenta">Venta</string>
+    <string name="buttonSalir">Salir</string>
+    <string name="buttonGuardar">Guardar</string>
+    <string name="buttonCalendario">Abrir calendario</string>
+
+    <string name="textView">Héroes de Papel</string>
+    <string name="textViewCliente">Nombre cliente:</string>
+    <string name="textViewFecha">Fecha compra:</string>
+    <string name="textViewLibro">Libro:</string>
+    <string name="textViewDatos">Datos de la venta:</string>
+    <string name="textViewVacio">dato</string>
+
+    <string name="editTextCliente">cliente</string>
+    <string name="editTextCompra">fecha de la compra</string>
+    <string name="editTextLibro">libro adquirido</string>
+    <string name="editTextFecha">Selecciona la fecha de compra</string>
+
+    <string name="radioButton1">Tetris</string>
+    <string name="radioButton2">La Enciclopedia Dreamcast</string>
+    <string name="radioButton3">La Historia de Final Fantasy VI</string>
+
+</resources>

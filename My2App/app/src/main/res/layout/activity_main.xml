@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:hint="@string/textView"
+        android:textColorHint="#3360A7"
+        android:textSize="48sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.453"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="162dp"
+        android:layout_height="231dp"
+        android:layout_marginStart="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.848"
+        app:srcCompat="@drawable/logo_heroes" />
+
+    <Button
+        android:id="@+id/buttonCliente"
+        style="?attr/materialButtonOutlinedStyle"
+        android:layout_width="110dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="170dp"
+        android:hint="@string/buttonCliente"
+        android:textColorHint="#3360A7"
+        android:textSize="20sp"
+        app:cornerRadius="10dp"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:strokeColor="#3360A7" />
+
+    <Button
+        android:id="@+id/buttonFecha"
+        style="?attr/materialButtonOutlinedStyle"
+        android:layout_width="110dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="170dp"
+        android:layout_marginEnd="40dp"
+        android:hint="@string/buttonFecha"
+        android:textColorHint="#3360A7"
+        android:textSize="20sp"
+        app:cornerRadius="10dp"
+        app:layout_constraintBottom_toBottomOf="@+id/buttonCliente"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:strokeColor="#3360A7" />
+
+    <Button
+        android:id="@+id/buttonLibro"
+        style="?attr/materialButtonOutlinedStyle"
+        android:layout_width="110dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="80dp"
+        android:hint="@string/buttonLibro"
+        android:textColorHint="#3360A7"
+        android:textSize="20sp"
+        app:cornerRadius="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonFecha"
+        app:strokeColor="#3360A7" />
+
+    <Button
+        android:id="@+id/buttonVenta"
+        style="?attr/materialButtonOutlinedStyle"
+        android:layout_width="110dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="40dp"
+        android:hint="@string/buttonVenta"
+        android:textColorHint="#3360A7"
+        android:textSize="20sp"
+        app:cornerRadius="10dp"
+        app:layout_constraintBottom_toBottomOf="@+id/buttonLibro"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonFecha"
+        app:strokeColor="#3360A7" />
+
+    <Button
+        android:id="@+id/buttonSalir"
+        android:layout_width="110dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="40dp"
+        android:backgroundTint="#3360A7"
+        android:hint="@string/buttonSalir"
+        android:textColorHint="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
